@@ -11,7 +11,6 @@
 import os
 
 
-
 ip_list = ["xxx.xxx.xxx.xxx" , "xxx.xxx.xxx.xxx"] # Change it for the IP Addresses of your servers. 
 
 user = "root" # Define the server user. 
@@ -29,6 +28,5 @@ for ip in ip_list:
 
 To get this program working you may have your servers able to be accessed via ssh-key. 
 Configure your ssh service accordinly. 
-
 
 """
