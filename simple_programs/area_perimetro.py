@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
 
-lado = input("Insira o valor de um lado do quadrado: ")
+side = input("Inser the value of one side of the square: ")
 
-print ("O perímetro do quadrado é:", float(lado) * 4 ," e a área do quadrado é:", float(lado) ** 2) 
+print ("The square perimeter is:", float(side) * 4 ," The area of the square is:", float(side) ** 2) 
