@@ -7,14 +7,22 @@
 
 """
 
+
 import os
+
+
 
 ip_list = ["xxx.xxx.xxx.xxx" , "xxx.xxx.xxx.xxx"] # Change it for the IP Addresses of your servers. 
 
-command = "cat /etc/passwd"
+user = "root" # Define the server user. 
+
+command = "cat /etc/passwd" # Define the command to be executed in the remote server. 
+
+
 
 for ip in ip_list:
-	os.system("ssh root" + "@" + ip + " '" + command + "'")
+	os.system("ssh" + user + " + "@" + ip + " '" + command + "'")
+
 
 
 """
