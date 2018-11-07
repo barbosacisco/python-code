@@ -1,11 +1,15 @@
-# This simple program was taken from the online course Python For Everybody, Coursera.
-# The purpose of the program is to take a number and count down until 0.
-# A simple program to countdown. 
+"""
+
+This simple program was taken from the online course Python For Everybody, Coursera.
+The purpose of the program is to take a number and count down until 0.
+A simple program to countdown.
+
+"""
 
 n = 5019230910932
 
 while n > 0:
-    print n
+    print(n)
     n = n - 1
 
-print "Done"
+print("Done")
