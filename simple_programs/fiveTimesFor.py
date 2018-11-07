@@ -1,4 +1,4 @@
-print ('My name is')
+print('My name is')
 
 for i in range(5):
-	print ('Hello! ('+ str(i) + ')')
+    print('Hello! (' + str(i) + ')')
