@@ -13,4 +13,4 @@ d = float(nota4)
 soma = a + b + c + d
 
 
-print ("A média aritmética é:", soma / 4)
+print("A média aritmética é:", soma / 4)
