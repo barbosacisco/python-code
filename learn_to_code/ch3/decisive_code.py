@@ -1,35 +1,42 @@
-
-# This is a rock, paper, scissors game.
+# This is a Rock, Paper, Scissors game.
 
 import random
 
-shoushin = ['rock', 'paper', 'scissors']
+options = ['rock', 'paper', 'scissors']
 
-#print(random.choice(shoushin))
+comp_choice = random.choice(options)
 
-comp_choice = random.choice(shoushin)
+print('##### Welcome to Rock, Paper Scissors game! #####\n')
 
-print (comp_choice)
+user_choice = input('Please choose: \n 1. Rock \n 2. Paper \n 3. Scissors \n \n')
 
-user_choice = input('Please make a choice: rock, paper or scissors? ')
+# Assign value block below.
+
+if user_choice == '1':
+    user_choice = 'rock'
+
+elif user_choice == '2':
+    user_choice = 'paper'
+
+elif user_choice == '3':
+    user_choice = 'scissors'
+
+# Decision block below.
 
 if comp_choice == user_choice:
-    print('This is a tie!')
+    print('We have a Tie. No winner this time.')
 
 elif comp_choice == 'rock' and user_choice == 'paper':
-        print('User wins.')
+    print('Computer has chosen', comp_choice,', you won! Congratulations!.')
 
 elif comp_choice == 'paper' and user_choice == 'scissors':
-    print('User Wins.')
+    print('Computer has chosen', comp_choice,', you won! Congratulations!.')
 
-elif user_choice == 'scissors' and comp_choice == 'rock':
-    print('Computer Wins.')
+elif comp_choice == 'scissors' and user_choice == 'rock':
+    print('Computer has chosen', comp_choice,', you won! Congratulations!.')
 
-elif user_choice == 'rock' and comp_choice == 'paper':
-        print('Computer Wins.')
+elif user_choice != options:
+    print('This is an invalid choice, please try again.')
 
-elif user_choice == 'paper' and comp_choice == 'scissors':
-    print('Computer Wins.')
-
-elif user_choice == 'scissors' and comp_choice == 'rock':
-    print('Computer Wins.')
+else:
+    print('You have chosen', user_choice,'and Computer has chosen', comp_choice,', sorry, you lost.')
