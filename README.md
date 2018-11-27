@@ -1,5 +1,7 @@
 # python-programs
 
+#### Note: Refer to 'development' branch for current code. 
+
 ### What is the purpose of this repository?
 
 This is my portfolio as a Python Junior Developer. Here you may find programs I wrote while learning Python. 
