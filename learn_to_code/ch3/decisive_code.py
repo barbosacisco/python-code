@@ -35,8 +35,13 @@ elif comp_choice == 'paper' and user_choice == 'scissors':
 elif comp_choice == 'scissors' and user_choice == 'rock':
     print('Computer has chosen', comp_choice,', you won! Congratulations!.')
 
-elif user_choice != options:
-    print('This is an invalid choice, please try again.')
-
 else:
     print('You have chosen', user_choice,'and Computer has chosen', comp_choice,', sorry, you lost.')
+
+"""
+TODO:
+
+- Add invalid option check;
+- Add loop to ask if the user wants to continue playing after the match is over. 
+
+"""
