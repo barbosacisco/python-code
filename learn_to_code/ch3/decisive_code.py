@@ -8,24 +8,12 @@ computer_choice = random.choice(options)
 
 print('##### Welcome to Rock, Paper Scissors game! #####\n')
 
-# Assign value block.
 
-player_choice = input('Please choose: \n 1. Rock \n 2. Paper \n 3. Scissors \n \n')
+def initialization():
+    global player_choice  # The 'global' function makes the variable 'player_choice' accessible globally.
 
-if player_choice == '1':
-    player_choice = 'rock'
-
-elif player_choice == '2':
-    player_choice = 'paper'
-
-elif player_choice == '3':
-    player_choice = 'scissors'
-
-# Check for invalid option.
-
-while player_choice != 'rock' and player_choice != 'paper' and player_choice != 'scissors':
-    print('Invalid choice!! Start over.\n')
     player_choice = input('Please choose: \n 1. Rock \n 2. Paper \n 3. Scissors \n \n')
+
     if player_choice == '1':
         player_choice = 'rock'
 
@@ -34,6 +22,15 @@ while player_choice != 'rock' and player_choice != 'paper' and player_choice != 
 
     elif player_choice == '3':
         player_choice = 'scissors'
+
+
+# Check for invalid option.
+
+initialization()  # Calling the function initialization above.
+
+while player_choice != 'rock' and player_choice != 'paper' and player_choice != 'scissors':
+    print('Invalid choice!! Start over.\n')
+    initialization()
 
 # Decision block / Code logic.
 
@@ -51,6 +48,3 @@ elif computer_choice == 'scissors' and player_choice == 'rock':
 
 else:
     print('You have chosen', player_choice, 'and Computer has chosen', computer_choice, ', sorry, you lost.')
-
-
-# TODO: Add "Want to play again?" Option to the code.
