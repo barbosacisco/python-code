@@ -4,7 +4,7 @@
 
 ### What is the purpose of this repository?
 
-This is my portfolio as a Python Junior Developer. Here you may find programs I wrote while learning Python. 
+This is my portfolio as a Junior Python Developer. Here you may find programs I've been writing while learning Python. 
 
 ### My main goals are:
 
