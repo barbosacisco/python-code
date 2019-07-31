@@ -1,6 +1,6 @@
-name = input('Hello, what is your name? ')
+name = input("Hello, what's your name? ")
 
 if name == 'Maria':
-    print('Hello %s , welcome to Maria`s Land.' % name)
+    print("Hello %s , welcome to Maria's Land." % name)
 else:
-    print('Ok!!')
+    print("Ok!!")
