@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-total = 0
+print('Just numbering... \n')
 
-for num in range(102030):
-    total = total + num
-print(total)
+for i in range(5):
+    print('Number: (' + str(i) + ')')
