@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 name = input("Hello, please type your name: ")
 
 if name != "":
@@ -8,5 +10,5 @@ if name != "":
     number = int(input("Please type another number: "))
     print(message * number)
 else:
-    print("Sorry I need you to type your name in order to proceed. ")
+    print("Sorry I need you to type your name in order to proceed.")
 

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 name = input("Hello, what's your name? ")
 
 if name == 'Maria':
