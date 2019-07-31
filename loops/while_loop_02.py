@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 count1 = input("How much is 4 + 4?: ")
 
 while count1 != "8":
