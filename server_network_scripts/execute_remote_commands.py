@@ -1,6 +1,4 @@
-#!/usr/bin/python
-
-# This program iterates through an IP Address list and execute a specific command in the servers. 
+#!/usr/bin/python3
 
 import os
 
