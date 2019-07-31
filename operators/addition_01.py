@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/python3
 
-nota1 = input("Digite a primeira nota:")
-nota2 = input("Digite a primeira nota:")
-nota3 = input("Digite a primeira nota:")
-nota4 = input("Digite a primeira nota:")
+nota1 = input("Digite a primeira nota: ")
+nota2 = input("Digite a primeira nota: ")
+nota3 = input("Digite a primeira nota: ")
+nota4 = input("Digite a primeira nota: ")
 
 a = float(nota1)
 b = float(nota2)
@@ -13,4 +13,4 @@ d = float(nota4)
 soma = a + b + c + d
 
 
-print("A média aritmética é:", soma / 4)
+print("A média aritmética é: ", soma / 4)

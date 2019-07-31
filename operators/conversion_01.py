@@ -1,8 +1,10 @@
-Fharenheit = input("Farehheit :")
+#!/usr/bin/python3
 
-temp = float(Fharenheit)
+fharenheit = input("Farehheit: ")
 
-Celcius = (temp - 32) * 5 / 9
+temp = float(fharenheit)
 
-print("A conversão para Celcius é ", Celcius)
+celcius = (temp - 32) * 5 / 9
+
+print("A conversão para Celcius é ", celcius)
 
