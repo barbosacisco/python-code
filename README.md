@@ -3,7 +3,7 @@
 
 ### What is the purpose of this repository?
 
-The purpose is to show, through short and simple programs, that I possess knowledge of the foundation concepts of coding, for instance:
+The purpose is to show, through short and simple programs, that I possess knowledge of the foundation concepts of programming, for instance:
 
 - Variables
 - Lists
