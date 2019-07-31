@@ -1,26 +1,35 @@
 # python-programs
 
-#### Note: Refer to 'development' branch for current code. 
 
 ### What is the purpose of this repository?
 
-This is my portfolio as a Junior Python Developer. Here you may find programs I've been writing while learning Python. 
+The purpose is to show, through short and simple programs, that I posses knowledge of the foundation concepts of coding, for instance:
+
+- Variables
+- Lists
+- Loops
+- Operators
+- If Statements
+- Functions
+- Automation Scripts
 
 ### My main goals are:
 
+  * To create readable code;
+  
+  * To follow Python guidelines for clean code;
+  
+  * To show strong coding concepts through very simple code;
+    
 
-  * Create readable code;
-  
-  * Follow PEP8 Guidelines for clean code;
-  
-  * Push code related to simple programs I wrote myself and that I learned from books and courses. 
-  
-  * Push my own projects to show my progress as a Python Developer.
+### Why code concepts through simple programs?
 
+Because I am learning and because the central point is to solve problems, not being the programming language the main focus but foundation concepts that can be abstracted to other languages in order to solve problems and create software and solutions to its problems.
+    
 #### How can you help?
 
 You can help me out by creating issues with improvements I can do to my programs and scripts. This will be very much appreciated. 
 
 #### How can I help you?
 
-Maybe you are a beginner and this repository can have content for you to look at it and learn from. If you are an advanced programmer, maybe you can find something useful anyway or you can help improving it by giving some tips and/or correcting code. 
+Maybe you are a beginner and this repository can contain content for you to look at it and learn from. If you are an advanced programmer, maybe you can find something useful  or you can help improving it by giving some tips and/or correcting code. 
