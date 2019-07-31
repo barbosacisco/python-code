@@ -1,4 +1,4 @@
-# python-programs
+# Code for Problem Solving
 
 
 ### What is the purpose of this repository?
