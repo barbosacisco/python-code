@@ -13,7 +13,7 @@ The purpose is to show, through short and simple programs, that I possess knowle
 - Functions
 - Automation Scripts
 
-### My main goals are:
+### Main goals
 
   * To create readable code;
   
