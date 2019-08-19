@@ -10,4 +10,3 @@ elif name == "Mary":
 
 else:
     print("Oh I'm sorry %s , I am expecting John and Mary." % name)
-
